@@ -1,0 +1,524 @@
+header, nav, main, section, footer {display:block;}
+
+html {
+    height: 100%;
+}
+body {
+    margin: -16px 0;
+    padding: 0;
+    background: #fff;
+    font-family: Infinity, 'Open Sans Condensed', sans-serif;
+    height: 100%;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #f3f6fa;
+    margin-top: 0;
+    background: #990303;
+    padding: 11.8px;
+    font-size: 25px;
+
+}
+
+.logo-name {
+    margin-left: 1.4%;
+}
+
+#main-container {
+    width: 85%;
+    margin: -10px auto -17px;
+    color: #666;
+    font-family: "Helvetica Neue", Tinos, serif;
+    font-weight: 100;
+    background-color: #fff;
+    overflow: auto;
+    height: 100%;
+    position: relative;
+    min-height:100%;
+}
+
+/* Navigation */
+
+nav ul {
+    list-style-type: none;
+    font-family: Infinity, 'Open Sans Condensed', sans-serif;
+    margin-left: 60%;
+}
+
+nav li {
+    display: inline-block;
+    padding: 15px 0;
+    width:23%;
+    text-align: center;
+    margin: 0;
+}
+
+nav li a {
+    font-weight: bold;
+    color: #71706e;
+    font-size: 20px;
+    text-shadow: 1px 2px 2px #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    border-bottom: 1px solid #990303;
+    padding-bottom: 3px;
+}
+
+/* Footer */
+footer {
+    background:  linear-gradient(150deg, #292323, #71706e, #9c9999, #f3f6fa, #fff, #fff, #fff, #fff);
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    left: 0;
+    bottom: -1%;
+
+}
+
+footer .footer-copyright, footer .contact-icons {
+    float: left;
+    width: 48%;
+    margin: 0;
+}
+
+.footer-copyright {
+    padding: 35px 2%;
+    text-align: left;
+    color: #fff;
+}
+
+/*Footer - social icons*/
+.contact-icons ul {
+    list-style-type: none;
+    text-align: right;
+    padding: 0;
+    margin-left: 69%;
+}
+
+.contact-icons ul li {
+    float: left;
+    width: 26%;
+    transition: width 0.5s;
+}
+
+.contact-icons img {
+    width: 90%;
+}
+
+/*Home Page*/
+.photo-container {
+    float: left;
+    width: 40%;
+}
+
+.photo-container img{
+    width: 75%;
+    padding-top:23%;
+    padding-left: 15%;
+    opacity: 0.95;
+}
+
+.right-content {
+    float: left;
+    width: 47%;
+    padding-left: 4%;
+    padding-top: 5%;
+    line-height: 1.4;
+    text-align: justify;
+    overflow: auto;
+}
+
+.right-content p, h2, h1 {
+    color: #333;
+}
+
+.right-content p {
+    border-bottom: 1px dashed #9c9999;
+    padding-bottom: 1.4%;
+}
+
+.heading {
+    color:#990303;
+    
+}
+/* Skills page */
+.skills-content {
+    float: left;
+    width: 47%;
+    padding-left: 4%;
+    padding-top: 4%;
+    padding-bottom: 2.1%;
+    line-height: 1.4;
+    text-align: justify;
+    overflow: hidden;
+}
+
+.skills-headings h2 {
+    float: left;
+    width: 25%;
+    color: #71706e;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+.skills-content ul {
+    list-style-image: url(images/Tick.png);
+    padding: 2% 4.1%;
+}
+
+.skills-content h1 {
+    font-size: 27px;
+}
+
+.photo-skills {
+    float: left;
+    width: 40%;
+}
+
+.photo-skills img{
+    border-radius: 50%;
+    width: 75%;
+    padding-top: 17%;
+    padding-left: 15%;
+    opacity: 0.95;
+}
+
+.skills-content .first-list, .skills-content .second-list, .skills-content .third-list {
+    float: left;
+    width: 25%;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.skills-content #margin-fix {
+    margin-bottom: 1px;
+    padding-bottom: 16px;
+}
+
+/* Work page*/
+
+#work-photo {
+    width: 90%;
+    margin: 0 10%;
+}
+
+#work-photo h1 {
+    font-size: 27px;
+    color: #990303;
+    padding-top: 3%;
+}
+
+#work-photo h1, #work-photo > p {
+    padding-right: 10%;
+    text-align: center;
+}
+
+#work-photo > p {
+    padding-bottom: 3%;
+}
+
+#work-photo section p {
+    color: #71706e;
+    font-weight: 300;
+}
+.example-photo {
+    float: left;
+    width: 50%;
+}
+
+.example-photo img {
+    opacity: 0.7;
+}
+
+.example-photo img:hover {
+    opacity: 1;
+}
+
+.example-photo img {
+    width: 80%;
+}
+
+#footer-work {
+    bottom: -40%;
+}
+
+/* Contact page */
+
+.contact-form {
+    float: left;
+    width: 47%;
+    padding-left: 8%;
+    padding-top: 0.7%;
+    line-height: 1.4;
+    text-align: justify;
+    overflow: hidden;
+}
+
+.contact-form h1 {
+    padding-top: 2%;
+    font-size: 27px;
+}
+
+fieldset {
+    border: none;
+    width: 80%;
+}
+
+form {
+    margin-top: 10px;
+    border: none;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 6px;
+    margin: 0 0 20px;
+    border: solid 1px #454545;
+    display: block;
+    width: 90%;
+    font-size: 14px;
+    color: #777;
+    text-transform: uppercase;
+}
+
+label {
+    font-size: 12px;
+    text-transform: uppercase;
+    display: block;
+    width: 30%;
+    margin-bottom: 3%;
+    color: #292323;
+}
+
+#margin-fix-contact {
+    margin-bottom: -20px;
+    padding-bottom: 16px;
+}
+
+/* General */
+.link-underline {
+    color: #990303;
+}
+
+.button {
+    background-color: #990303;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    margin-right: 0;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.strong {
+    color: #990303;
+    font-weight:400;
+}
+
+
+@media screen and (max-width: 800px){
+    div#main-container {
+        width: 100%;
+    }
+
+    nav ul {
+        margin-left: 35%;
+    }
+
+    nav li {
+        width: 19%;
+    }
+
+    .photo-container, section.right-content {
+        float: none;
+        width: 95%;
+        padding: 2%;
+        margin: 0;
+    }
+
+    .photo-container img {
+        width: 55%;
+        padding: 2% 17% 1%;
+    }
+
+    section.photo-skills img {
+        width: 48%;
+        padding: 2% 25% 0;
+    }
+
+    section.photo-skills, section.skills-content {
+        float: none;
+        width: 95%;
+        padding: 2%;
+    }
+
+    div.skills-content ul {
+        padding-left: 6%;
+        padding-right: 1.5%;
+    }
+
+    #work-photo {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .example-photo {
+        float: none;
+        width: 85%;
+        margin-top: 40px;
+    }
+
+    .example-photo p {
+        text-align: center;
+    }
+
+    .example-photo img {
+        width: 100%;
+    }
+
+    .photo-container, .contact-form {
+        float: none;
+        width: 90%;
+        padding: 0 4%;
+    }
+
+    .contact-icons {
+        width: 70%;
+    }
+    .contact-icons ul {
+        margin: 0 3%;
+        width: 95%;
+        padding: 7% 0;
+    }
+
+    .contact-icons ul li {
+        width: 30%;
+    }
+
+    .contact-icons ul li img {
+        width: 70%;
+    }
+
+    footer {
+        bottom: -38%;
+    }
+
+    #footer-work {
+        bottom: -180%;
+    }
+
+    #footer-contact {
+        bottom: -63%;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    .main-container {
+        width: 100%;
+    }
+
+    .photo-container, .right-content {
+        width: 90%;
+        padding-bottom: 0;
+    }
+    nav li {
+        display: block;
+        padding: 4%;
+    }
+    nav ul {
+
+        text-align: center;
+    }
+
+    nav ul a {
+        font-size: 30px;
+
+    }
+
+    #work-photo {
+        width: 93%;
+        padding: 1%;
+    }
+
+    .contact-form {
+        width: 96%;
+        padding-left: 4%;
+        padding-right: 0;
+    }
+
+    .photo-container img {
+        display: none;
+    }
+
+    .photo-skills {
+        display: none;
+    }
+
+    .skills-content ul li {
+        list-style-image: none;
+    }
+
+    footer {
+        height: 180px;
+    }
+
+    footer .footer-copyright, footer .contact-icons {
+        float: none;
+        width: 99%;
+        margin: 0;
+    }
+
+    footer .footer-copyright {
+        text-align: center;
+        margin: 0;
+        padding: 40px 0;
+        color: #292323;
+    }
+
+    footer .contact-icons{
+        width: 100%;
+    }
+
+    footer .contact-icons ul {
+        text-align: center;
+        margin-top: -50px;
+    }
+
+    footer .contact-icons ul img {
+        width: 50%;
+        margin: 0;
+    }
+
+    footer {
+        bottom: -25%;
+    }
+
+    #footer-work {
+        bottom: -150%;
+    }
+
+    #footer-contact {
+        bottom: -40%;
+    }
+
+    label {
+        width: 90%;
+    }
+
+}
+
